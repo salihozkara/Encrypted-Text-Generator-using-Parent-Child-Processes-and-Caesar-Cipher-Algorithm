@@ -1,6 +1,6 @@
-# Encrypted Text Generator using Parent-Child Processes and Sezar Cipher Algorithm
+# Encrypted Text Generator using Parent-Child Processes and Caesar Cipher Algorithm
 
-This project demonstrates the usage of parent-child processes and Sezar Cipher algorithm to encrypt text using C language. The parent process sends an ordinary pipe to the child process, which encrypts the received text using the Sezar Cipher algorithm with 4 threads in parallel. The encrypted text is stored in a shared memory and is finally read by the parent process and displayed on the screen.
+This project demonstrates the usage of parent-child processes and Caesar Cipher algorithm to encrypt text using C language. The parent process sends an ordinary pipe to the child process, which encrypts the received text using the Caesar Cipher algorithm with 4 threads in parallel. The encrypted text is stored in a shared memory and is finally read by the parent process and displayed on the screen.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ A step by step series of examples that tell you how to get a development env run
 1. Clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/salihozkara/Encrypted-Text-Generator-using-Parent-Child-Processes-and-Sezar-Cipher-Algorithm.git
+git clone https://github.com/salihozkara/Encrypted-Text-Generator-using-Parent-Child-Processes-and-Caesar-Cipher-Algorithm.git
 ```
 
 2. Compile the code using GCC:
